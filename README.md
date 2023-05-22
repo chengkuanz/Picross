@@ -1,5 +1,5 @@
 # Picross
-Java Picross
+Created by Chengkuan Zhao and Chang liu
 
 Welcome to the Java Picross repository! This project is an implementation of the popular puzzle game Picross, also known as Nonograms, using Java programming language.
 
