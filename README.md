@@ -16,12 +16,15 @@ To run the Java Picross game locally on your machine, follow these steps:
 5.	Follow the on-screen instructions to play the game and solve Picross puzzles!
 
 Contributing
+
 We welcome contributions to the Java Picross project. If you'd like to contribute, please fork the repository, make your changes, and submit a pull request. Our team will review your contribution and work with you to incorporate it into the project.
 
 License
+
 The Java Picross project is licensed under the GNU Affero General Public License v3.0 (GNU AGPL v3.0).  
 
 Feedback and Support
+
 If you encounter any issues, have suggestions, or need assistance with the Java Picross game, please open an issue in the repository. We value your feedback and will strive to address any concerns promptly.
 
 Enjoy the challenging world of Picross with Java Picross! Happy puzzling!
