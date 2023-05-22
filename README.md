@@ -1,11 +1,14 @@
 # Picross
 Java Picross
+
 Welcome to the Java Picross repository! This project is an implementation of the popular puzzle game Picross, also known as Nonograms, using Java programming language.
 
 What is Picross?
+
 Picross is a logic-based puzzle game that challenges players to reveal a hidden picture by filling in the correct cells on a grid. The numbers on the edges of the grid indicate how many consecutive cells should be filled in a row or column, while leaving at least one empty cell between each group. By applying deductive reasoning and careful analysis, players can gradually unveil the image and solve the puzzle.
 
 Features
+
 -Interactive Gameplay: Enjoy a user-friendly interface that allows players to interact with the Picross puzzle using mouse clicks or keyboard input.
 -Multiple Difficulty Levels: Choose from a range of difficulty levels, including easy, medium, and hard, catering to players of different skill levels.
 -Random Puzzle Generation: Generate unique Picross puzzles each time, providing endless gameplay possibilities.
