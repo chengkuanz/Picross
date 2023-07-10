@@ -29,3 +29,30 @@ If you encounter any issues, have suggestions, or need assistance with the Java 
 
 Enjoy the challenging world of Picross with Java Picross! Happy puzzling!
 
+
+Picross Game in Java
+This is a Java implementation of the Picross game, also known as Nonograms, Griddlers, or Hanjie. It's a puzzle game where the goal is to fill in some cells in a grid based on the numbers given at the side of the grid to reveal a hidden picture.
+
+Project Structure
+The project is organized using the Model-View-Controller (MVC) design pattern. Here are the main classes:
+
+Game.java: The entry point of the application. It creates an instance of the GameModel and GameView.
+
+GameModel.java: The model class for the game. It maintains the game's current state, points, and other properties.
+
+GameController.java: An interface that defines the methods for controlling the game. These methods are implemented by the GameView class.
+
+GameView.java: The view class for the game. It is responsible for the user interface of the game.
+
+How to Run
+(Add instructions on how to compile and run the game.)
+
+Features
+This implementation of the Picross game includes the following features:
+
+Start a new game
+Save and load game state
+Show the solution
+Change the color of the game cells
+Change the language of the game interface
+
