@@ -6,6 +6,7 @@
 ## Table of Contents
 - [Introduction](#introduction)
 - [Technologies](#Technologies)
+- [Pictures](#Pictures)
 - [How to Play](#how-to-play)
 - [Setup](#Setup)
 - [Design Pattern and Architecture](#design-pattern-and-architecture)
@@ -14,6 +15,13 @@
 
 ## Introduction
 This project is a Picross game implemented in Java. It allows players to solve Picross puzzles by filling in a grid based on numerical clues. This picross game is built using the Model-View-Controller (MVC) architectural pattern, making it modular and easy to extend. It also features both server and client components, enabling multiplayer interactions.
+
+##Pictures
+![GameLuncher](Pictures/GameLuncher.png)
+![Client](Pictures/Client.png)
+![Server](Pictures/Server.png)
+![Setting](Pictures/Setting.png)
+![Game](Pictures/Game.png)
 
 ## Technologies
 - Java: The backbone of the application.
@@ -28,11 +36,12 @@ In Picross, players tries to fill a grid based on number clues given at the side
 
 ### Rules
 
-- The game is a puzzle game where the players can connect to the server to start a game session. Server and clients must be in the same local area network. Follow the on-screen instructions to play the game.
+- The game is a puzzle game where the players can connect to the server to start a game session. 
+- Server and clients must be in the same local area network.
+-  Follow the on-screen instructions to start both the server and the client components to play the game.
 - Each number on the rows and columns indicates a group of filled-in blocks.
 - There must be at least one blank cell between each group.
 - The game is won when the hidden tiles are fully and correctly revealed.
-- The grid color is customizable. 
 
 ## Setup
 ### Prerequisites
@@ -40,11 +49,15 @@ In Picross, players tries to fill a grid based on number clues given at the side
 - A Java IDE (e.g., Eclipse, IntelliJ IDEA) (Optional)
 - Network connection for multiplayer (Optional)
 
-### Batch File
-For easier execution, you can use the provided batch file `gameStarter.bat`. Double-click the batch file, and it will compile the code, create a JAR file, generate Javadocs, and run the game.
+### Option 1 Run the Provided Batch File
+Go to [Release](https://github.com/chengkuanz/Picross/releases) and download the latest `source_code.zip`and unzip it. 
 
-### How to use
-Use the on-screen controls to play Picross. After double click the provided batch file, choose to host (server) or join (client) a game. You need to start both the server and the client components. Follow the clues and fill in the grid to solve the puzzle.
+Double-click the batch file `gameStarter.bat`and it will compile the code, create a JAR file, generate Javadocs, and run the game. 
+
+### Option 2 Run the executable file
+Go to [Release](https://github.com/chengkuanz/Picross/releases) and download the latest `Picross_exe.zip` and unzip it. 
+
+Run the `Game.exe`, make sure `Game.exe` and `image` are in the same folder. 
 
 ## Design Pattern and Architecture
 The project follows the MVC (Model-View-Controller) design pattern, ensuring a clean separation of concerns:
