@@ -20,7 +20,7 @@ This project is a Picross game implemented in Java. It allows players to solve P
 ![GameLuncher](Pictures/GameLuncher.png)
 ![Client](Pictures/Client.png)
 ![Server](Pictures/Server.png)
-![Setting](Pictures/Setting.png)
+![Settings](Pictures/Settings.png)
 ![Game](Pictures/Game.png)
 
 ## Technologies
