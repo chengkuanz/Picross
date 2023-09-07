@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes","url":"allclasses-index.html"},{"p":"Picross","l":"Game"},{"p":"Picross","l":"GameClient"},{"p":"Picross","l":"GameConfig"},{"p":"Picross","l":"GameController"},{"p":"Picross","l":"GameModel"},{"p":"Picross","l":"GameServer"},{"p":"Picross","l":"GameView"}]
