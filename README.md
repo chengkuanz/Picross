@@ -67,7 +67,7 @@ The game also employs a client-server model, with `GameServer.java` and `GameCli
 - `src/Picross/GameView.java`: Handles the GUI and view logic.
 - `src/Picross/GameConfig.java`: Contains game properties and network protocols.
 - `bin/` : Contains the compiled Java classes and JAR file.
-- `doc/` : Contains JavaDoc documentation.
+- `doc/` : Contains Javadoc documentation.
 - `resources/texts`:Resource bundles that contains localized strings to facilitate the adaption of the application to different languages.
 - `gameStarter.bat` : This batch file responsible to compile Java file useing 'javac', create JAR file using 'jar cvfe' command, generate Javadoc, and runing the JAR file
 
