@@ -69,6 +69,7 @@ The game also employs a client-server model, with `GameServer.java` and `GameCli
 - `bin/` : Contains the compiled Java classes and JAR file.
 - `doc/` : Contains JavaDoc documentation.
 - `resources/texts`:Resource bundles that contains localized strings to facilitate the adaption of the application to different languages.
+- `gameStarter.bat` : This batch file responsible to Compile Java file useing 'javac', create JAR file using 'jar cvfe' command, generate Javadoc, and runing the JAR file
 
 ## Authors
 This game was developed by Chengkuan Zhao and Chang Liu, starting from January 2023. Feel free to reach out for any questions or contributions.
