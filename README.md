@@ -41,7 +41,7 @@ In Picross, players tries to fill a grid based on number clues given at the side
 - Network connection for multiplayer (Optional)
 
 ### Batch File
-For easier execution, you can use the provided batch file `A32_batch.bat`. Double-click the batch file, and it will compile the code, create a JAR file, generate Javadocs, and run the game.
+For easier execution, you can use the provided batch file `gameStarter.bat`. Double-click the batch file, and it will compile the code, create a JAR file, generate Javadocs, and run the game.
 
 ### How to use
 Use the on-screen controls to play Picross. After double click the provided batch file, choose to host (server) or join (client) a game. You need to start both the server and the client components. Follow the clues and fill in the grid to solve the puzzle.
@@ -59,21 +59,18 @@ The game also employs a client-server model, with `GameServer.java` and `GameCli
 - Client (`GameClient.java`): Connects to the server, receives updates, and sends user inputs back to the server.
 
 ## File Structure
-  - `src/Game.java`: Game launcher.
-  - `src/GameClient.java`: Handles client-side logic.
-  - `src/GameConfig.java`: Contains game properties and network protocols.
-  - `src/GameController.java`: Controls interactions between the view and the model.
-  - `src/GameModel.java`: Holds the game's core logic and properties.
-  - `src/GameServer.java`: Manages server-side logic.
-  - `src/GameView.java`: Handles the GUI and view logic.
-
+  - `src/Picross/Game.java`: Game launcher.
+  - `src/Picross/GameClient.java`: Handles client-side functionalities.
+  - `src/Picross/GameServer.java`: Manages server-side functionalities.
+  - `src/Picross/GameController.java`: Controls interactions between the view and the model.
+  - `src/Picross/GameModel.java`: Holds the game's core logic and properties.
+- `src/Picross/GameView.java`: Handles the GUI and view logic.
+- `src/Picross/GameConfig.java`: Contains game properties and network protocols.
 - `bin/` : Contains the compiled Java classes and JAR file.
 - `doc/` : Contains JavaDoc documentation.
+- `resources/texts`:Resource bundles that contains localized strings to facilitate the adaption of the application to different languages.
 
-messageboubdle
-image
-
-## Contributors
+## Authors
 This game was developed by Chengkuan Zhao and Chang Liu, starting from January 2023. Feel free to reach out for any questions or contributions.
 
-last update: Sep 6 2023
+last update: Sep 7 2023
