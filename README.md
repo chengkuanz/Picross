@@ -87,4 +87,4 @@ The game also employs a client-server model, with `GameServer.java` and `GameCli
 ## Authors
 This game was developed by [Chengkuan Zhao](https://github.com/chengkuanz) and [Chang Liu](https://github.com/lyalc542), starting from January 2023. Feel free to reach out for any questions or contributions.
 
-last update: Sep 7 2023
+Last update: April 2023
