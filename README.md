@@ -6,7 +6,7 @@
 ## Table of Contents
 - [Introduction](#introduction)
 - [Technologies](#Technologies)
-- [Demo Video](#Demo Video)
+- [Demo Video](#Demo-Video)
 - [Pictures](#Pictures)
 - [How to Play](#how-to-play)
 - [Setup](#Setup)
@@ -17,7 +17,11 @@
 ## Introduction
 This project is a Picross game implemented in Java. It allows players to solve Picross puzzles by filling in a grid based on numerical clues. This picross game is built using the Model-View-Controller (MVC) architectural pattern, making it modular and easy to extend. It also features both server and client components, enabling multiplayer interactions.
 
-##Demo Video
+## Demo Video
+
+
+
+https://github.com/user-attachments/assets/47c2bc13-a52f-4b1c-b9af-04abbe18e851
 
 
 
