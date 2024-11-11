@@ -8,10 +8,11 @@
 - [Technologies](#Technologies)
 - [Demo Video](#Demo-Video)
 - [Pictures](#Pictures)
+- [Technologies](#Technologies)
+- [File Structure](#File-Structure)
 - [How to Play](#how-to-play)
 - [Setup](#Setup)
 - [Design Pattern and Architecture](#design-pattern-and-architecture)
-- [File Structure](#file-structure)
 - [Authors](#authors)
 
 ## Introduction
@@ -36,6 +37,25 @@ https://github.com/user-attachments/assets/47c2bc13-a52f-4b1c-b9af-04abbe18e851
 - Java: The backbone of the application.
 - Swing: For building a responsive and intuitive GUI.
 - Java Sockets: For real-time, bi-directional communication between client and server.
+
+## File Structure
+### Core Components
+- `src/Picross/Game.java`: Game launcher.
+- `src/Picross/GameClient.java`: Handles client-side functionalities, including connects to the game server, sends player actions, and receives game updates
+- `src/Picross/GameServer.java`: Manages server-side functionalities, maintains the game state and facilitates multiplayer interactions.
+
+### MVC Components
+- `src/Picross/GameController.java`: Controls interactions between the view and the model, handling user inputs and game logic.
+- `src/Picross/GameModel.java`: Stores and processes the game state, including grid data and scoring logic.
+- `src/Picross/GameView.java`: Presents the game interface and handles visual updates.
+
+### Supporting Components
+- `src/Picross/GameConfig.java`: Contains game configuration options such as grid size and initial settings, and network protocols.
+- `bin/` : Contains the compiled Java classes and JAR file.
+- `doc/` : Contains Javadoc documentation.
+- `resources/texts`:Resource bundles that contains localized strings to facilitate the adaption of the application to different languages.
+- `gameStarter.bat` : This batch file responsible to compile Java file using `javac`, create JAR file using `jar cvfe` command, generate Javadoc, and runing the JAR file
+
 
 ## How to Play
 
@@ -80,23 +100,7 @@ The game also employs a client-server model, with `GameServer.java` and `GameCli
 - Server (`GameServer.java`): Manages incoming connections, synchronizes game state, and sends updates to connected clients.
 - Client (`GameClient.java`): Connects to the server, receives updates, and sends user inputs back to the server.
 
-## File Structure
-### Core Components
-  - `src/Picross/Game.java`: Game launcher.
-  - `src/Picross/GameClient.java`: Handles client-side functionalities, including connects to the game server, sends player actions, and receives game updates
-  - `src/Picross/GameServer.java`: Manages server-side functionalities, maintains the game state and facilitates multiplayer interactions.
 
-### MVC Components
-  - `src/Picross/GameController.java`: Controls interactions between the view and the model, handling user inputs and game logic.
-  - `src/Picross/GameModel.java`: Stores and processes the game state, including grid data and scoring logic.
-- `src/Picross/GameView.java`: Presents the game interface and handles visual updates.
-
-### Supporting Components
-- `src/Picross/GameConfig.java`: Contains game configuration options such as grid size and initial settings, and network protocols.
-- `bin/` : Contains the compiled Java classes and JAR file.
-- `doc/` : Contains Javadoc documentation.
-- `resources/texts`:Resource bundles that contains localized strings to facilitate the adaption of the application to different languages.
-- `gameStarter.bat` : This batch file responsible to compile Java file using `javac`, create JAR file using `jar cvfe` command, generate Javadoc, and runing the JAR file
 
 ## Authors
 This game was developed by [Chengkuan Zhao](https://github.com/chengkuanz) and [Chang Liu](https://github.com/lyalc542), starting from January 2023. Feel free to reach out for any questions or contributions.
